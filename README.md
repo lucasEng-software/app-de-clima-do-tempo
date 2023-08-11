@@ -5,7 +5,7 @@
 Essa aplicação é uma ferramenta simples para obter a temperatura em um determinado local. Ela utiliza a API do OpenWeatherMap para buscar dados climáticos e exibir a temperatura atual desse local.
 
 ## Foi utilizado HTML, CSS, JAVASCRIPT apenas
-##Screenshot
+## Screenshot
 ![image](https://github.com/lucasEng-software/app-de-clima-do-tempo/assets/59840153/0f86732f-78e6-4cde-8ab4-b96fd27bf919)
 
 ## Funcionalidades
