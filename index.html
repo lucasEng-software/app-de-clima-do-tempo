@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content = "IE=edge">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+        <title>Aplicação do tempo</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="caixa-de-busca">
+               <i class="fa-solid fa-location-dot"></i>
+               <input type='text' placeholder="Digite o local desejado"/>
+                <button class="fa-solid fa-magnifying-glass"></button>
+            </div>
+            <div class="not-found">
+                <img src="./assets/404.png" alt="localização não encontrada" class="">
+                <p>Localização inválida!</p>
+            </div>
+            <div class="caixa-do-tempo">
+                <img src="" alt="">
+                <p class="temperatura"></p>
+                <p class="descricao"></p>
+            </div>
+            <div class="detalhes-do-tempo">
+                <div class="humidade">
+                    <i class="fa-solid fa-water"></i>
+                    <div class="text">
+                        <span></span>
+                        <p>Humidade</p>
+                    </div>
+                </div>
+                <div class="vento">
+                    <i class="fa-solid fa-wind"></i>
+                    <div class="text">
+                        <span></span>
+                        <p>Velocidade do vento</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <script src="index.js"></script>
+        <script src="https://kit.fontawesome.com/c220bf9a12.js" crossorigin="anonymous"></script>
+    </body>
+</html>
