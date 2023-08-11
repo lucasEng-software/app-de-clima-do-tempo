@@ -11,13 +11,13 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #06283d;
+    background: #06283D;
 }
 
 .container{
     position: relative;
     width: 400px;
-    height: 605px;
+    height: 105px;
     background: #fff;
     padding: 28px 32px;
     overflow: hidden;
@@ -35,8 +35,8 @@ body{
 }
 
 .caixa-de-busca input{
-    color: #06283d;
-    width: 80%; 
+    color: #06283D;
+    width: 80%;
     font-size: 24px;
     font-weight: 500;
     text-transform: uppercase;
@@ -46,14 +46,15 @@ body{
 .caixa-de-busca input::placeholder{
     font-size: 20px;
     font-weight: 500;
-    color: #06283d;
+    color: #06283D;
     text-transform: capitalize;
 }
+
 .caixa-de-busca button{
     cursor: pointer;
     width: 50px;
     height: 50px;
-    color: #06283d;
+    color: #06283D;
     background: #dff6ff;
     border-radius: 50%;
     font-size: 22px;
@@ -62,12 +63,12 @@ body{
 
 .caixa-de-busca button:hover{
     color: #fff;
-    background: #06283d;
+    background: #06283D;
 }
 
 .caixa-de-busca i{
     position: absolute;
-    color: #06283d;
+    color: #06283D;
     font-size: 28px;
 }
 
@@ -76,26 +77,27 @@ body{
 }
 
 .caixa-do-tempo img{
-    width: 60px;
-    margin-top:30px;
+    width: 60%;
+    margin-top: 30px;
 }
 
 .caixa-do-tempo .temperatura{
     position: relative;
-    color: #06283d;
+    color: #06283D;
     font-size: 4rem;
-    font-weight: 900;
+    font-weight: 800;
+    margin-top: 30px;
     margin-left: -16px;
 }
 
 .caixa-do-tempo .temperatura span{
-    position:absolute;
+    position: absolute;
     margin-left: 4px;
     font-size: 1.5rem;
 }
 
 .caixa-do-tempo .descricao{
-    color: #06283d;
+    color: #06283D;
     font-size: 22px;
     font-weight: 500;
     text-transform: capitalize;
@@ -107,37 +109,39 @@ body{
     justify-content: space-between;
     margin-top: 30px;
 }
-.detalhes-do-tempo .humidade .detalhes-do-tempo .vento{
-   display: flex;
-   align-items: center;
-   width: 50%;
-   height: 100px; 
+
+.detalhes-do-tempo .humidade, .detalhes-do-tempo .vento{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 100px;
 }
 
 .detalhes-do-tempo .humidade{
     padding-left: 20px;
-    justify-content: flex-end;
+    justify-content: flex-start;
 }
+
 .detalhes-do-tempo .vento{
-    padding-left: 20px;
+    padding-right: 20px;
     justify-content: flex-end;
 }
 
 .detalhes-do-tempo i{
-    color: #06283d;
+    color: #06283D;
     font-size: 26px;
     margin-right: 10px;
     margin-top: 6px;
 }
 
 .detalhes-do-tempo span{
-    color: #06283d;
+    color: #06283D;
     font-size: 22px;
     font-weight: 500;
 }
 
 .detalhes-do-tempo p{
-    color: #06283d;
+    color: #06283D;
     font-size: 14px;
     font-weight: 500;
 }
@@ -167,3 +171,14 @@ body{
     opacity: 0;
 }
 
+.fadeIn{
+    animation: 0.5s fadeIn forwards;
+    animation-delay: 0.5s;
+}
+
+@keyframes fadeIn{
+    to {
+        scale: 1;
+        opacity: 1;
+    }
+}
